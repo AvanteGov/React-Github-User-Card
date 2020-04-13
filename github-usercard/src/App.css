@@ -14,7 +14,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -65,4 +64,13 @@ h1 {
 
 p {
   font-family: 'NTR', sans-serif;
+}
+
+a {
+  font-family: 'NTR', sans-serif;
+}
+
+.profile-container__img {
+  width: 100px;
+  height: 100px;
 }
