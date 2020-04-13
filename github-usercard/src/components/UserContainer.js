@@ -3,6 +3,7 @@ import React, {Component} from "react";
 
 //components 
 import UserCard from "./UserCard"
+import FollowContainer from "./FollowContainer";
 
 class UserContainer extends Component {
 
@@ -33,6 +34,7 @@ class UserContainer extends Component {
             <div className="user-container">
                 <h1> I AM THE USER CONTAINER</h1>
                 <UserCard userdata={this.state.userdata} />
+                <FollowContainer userdata={this.state.userdata} />
             </div>
         )
     }
