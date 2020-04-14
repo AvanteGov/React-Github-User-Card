@@ -32,7 +32,6 @@ class UserContainer extends Component {
     render () {
         return (
             <div className="user-container">
-                <h1> I AM THE USER CONTAINER</h1>
                 <UserCard userdata={this.state.userdata} />
                 <FollowContainer userdata={this.state.userdata} />
             </div>

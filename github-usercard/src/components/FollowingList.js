@@ -28,7 +28,7 @@ class FollowingList extends Component {
 
     render(){
         return(
-            <div>
+            <div className="follow-list-container">
                 {this.state.followingdata.map((following) => {
                     return (
                         <FollowingCard followingdata={following} />

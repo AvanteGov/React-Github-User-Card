@@ -1,0 +1,270 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+Html {
+  font-size: 62.5%;
+}
+/* //////////// standards  ////////////// */
+/* font-family: 'Archivo Black', sans-serif; */
+/* font-family: 'NTR', sans-serif; */
+/* #1D363D -- deep blue
+#308375 -- matte mint
+#9DC9B7 -- matte seafoam
+#FBF9F8 -- off white
+#E90D09 -- red */
+/* //////////// styling ////////////// */
+.header_font {
+  font-family: 'Archivo Black', sans-serif;
+}
+.copy_font {
+  font-family: 'NTR', sans-serif;
+}
+.App {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1D363D;
+}
+.user-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.user-card {
+  width: 90%;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 300px;
+  box-shadow: 4px 4px 5.25px 2px #9DC9B7 inset;
+  margin: 2% auto;
+  background-color: #FBF9F8;
+}
+.user-card__img {
+  height: 300px;
+  width: auto;
+  border-radius: 300px;
+  border: 5px dashed #308375;
+}
+.user-card__copy-container {
+  width: 60%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.user-card__copy-container h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 5rem;
+}
+.user-card__copy-container p,
+.user-card__copy-container a {
+  font-family: 'NTR', sans-serif;
+  font-size: 2.5rem;
+}
+.user-card__copy-container a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #308375;
+}
+.user-card__copy-container a:hover {
+  color: #9DC9B7;
+}
+.copy-container__follow-link-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.follow-link-container__follow-container {
+  display: flex;
+  justify-content: space-between;
+  width: 135px;
+}
+.follow-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.follower-card-container {
+  width: 500px;
+  height: 200px;
+  border-radius: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2.3%;
+  box-shadow: 2px 2px 4px 1px #9DC9B7 inset;
+  background-color: #FFFFFF;
+}
+.follower-card-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  border: 5px dashed #308375;
+}
+.follow-card-container__copy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 50%;
+}
+.follow-card-container__copy-container h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2.1rem;
+}
+.follow-card-container__copy-container p {
+  font-family: 'NTR', sans-serif;
+  font-size: 2rem;
+  color: #308375;
+}
+.follow-card-container__copy-container div {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: space-around;
+}
+.following-card-container {
+  width: 500px;
+  height: 200px;
+  border-radius: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2.3%;
+  box-shadow: 2px 2px 4px 1px #9DC9B7 inset;
+  background-color: #FFFFFF;
+}
+.following-card-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  border: 5px dashed #308375;
+}

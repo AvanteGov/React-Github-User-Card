@@ -3,17 +3,17 @@ import React from 'react';
 
 //components
 import UserContainer from "./components/UserContainer";
-import SearchForm from "./components/SearchForm";
-import FollowContainer from "./components/FollowContainer";
+// import SearchForm from "./components/SearchForm";
+
 
 //styling
-import './App.css';
-import FollowerCard from './components/FollowerUserCard';
+import '../src/CSS/index.css';
+
 
 function App() {
   return (
     <div className="App">
-    <SearchForm />
+    {/* <SearchForm /> */}
     <UserContainer />
     </div>
   );
