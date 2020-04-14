@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import FollowerCard from "./FollowerUserCard";
+
 class FollowerList extends Component {
     
     constructor(props) {
@@ -15,7 +17,7 @@ class FollowerList extends Component {
         fetch(`${this.props.link}`)
         .then((response) => response.json())
         .then((response) => { 
-            console.log("follower response:", response)
+            // console.log("follower response:", response)
             this.setState({
                 followerdata: response
             })
@@ -26,8 +28,10 @@ class FollowerList extends Component {
     render() {
         return (
             <div>
-                {/* {console.log("list props", this.props)} */}
-                <p> I am the Follower list</p>
+                {/* {console.log("list state", this.state)} */}
+                {this.state.followerdata.map((follower) => (
+                    <FollowerCard followerdata={follower} />
+                ))}
             </div>
         )
     }

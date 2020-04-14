@@ -19,6 +19,12 @@ class FollowContainer extends Component {
                     <FollowerList link={this.props.userdata.followers_url} />
                 )
             }} />
+
+            <Route exact path="/following" component={() => {
+                return(
+                    <FollowingList link={this.props.userdata.following_url} />
+                )
+            }} />
             </div>
         )
     }
