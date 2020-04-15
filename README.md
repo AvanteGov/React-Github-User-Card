@@ -69,6 +69,11 @@ When you have those completed, you're ready to start coding!
 
 Now that you have completed the MVP, I want you to think about the process it took you to get here. Is there anything you wish you had planned better? Anything you would do differently? Now take a minute think about how you would accomplish these same objectives with function components and hooks. You have experience with both formats now, so you can form opinions, but more importantly, you can back up those opinions. That's a really exciting level to be at! If you have time now, go ahead and move onto the stretch problems.
 
+
+## Retrospective: 
+I believe given the expereince of both methodologies the best practice (as with most things in life) lies somewhere in the middle of the two- using one or the other when it is most suitable. Building the application explicitly one way or the other has its own inherent nature of challenges that the opposite can stand to mitigate. 
+
+
 ## Stretch Problems
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:

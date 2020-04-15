@@ -21,8 +21,8 @@ class UserContainer extends Component {
         fetch(`https://api.github.com/users/AvanteGov`)
         .then((response) => response.json())
         .then ((response) => {
-            // console.log("fetch repsonse", response)
-            this.setState( { userdata: response })
+            console.log("fetch repsonse", response)
+            this.setState( { userdata: response } )
         })
         .catch((error) => {
             console.log("error, tex", error)
